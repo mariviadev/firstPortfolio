@@ -1,0 +1,390 @@
+body, footer {
+    margin: 0;
+}
+
+/* CONSTANTS: TEXT */
+.text-color-white {
+    color: #FFF;
+}
+
+.text-color-pink {
+    color: #FFC1C4;
+}
+
+.text-color-white-pink-gradient {
+    /*Source: https://cssgradient.io/blog/css-gradient-text/*/
+    background: -webkit-linear-gradient(90deg, #FFF 0%, #FFA1A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: bold;
+    font-weight: 700;
+}
+
+.text-color-blue-pink-gradient {
+    /*Source: https://cssgradient.io/blog/css-gradient-text/*/
+    background: -webkit-linear-gradient(90deg, #7E3343 0%, #22133B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: bold;
+    font-weight: 700;
+}
+
+/* CONSTANTS: BACKGROUNDS */
+.dark-blue-bg {
+    background: #0B0A37;
+    min-width: 1280px;
+    position: relative;
+}
+
+.pink-blue-gradient-bg {
+    min-width: 1280px;
+    height: 596px;
+    background: linear-gradient(180deg, #953B46 0%, #070936 100%);
+}
+
+.blue-pink-gradient-bg {
+    min-width: 1280px;
+    height: 428px;
+    background: linear-gradient(180deg, #0B0A37 0%, #8C3845 100%);
+}
+
+/* OTHER CONSTANTS */
+.default-button {
+    padding: 10px 45px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 30px;
+    border: none;
+    background: #D17884;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mina;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* HEADER & NAVIGATION */
+a {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+#header-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 80px;
+}
+
+#logo-h1 {
+    color: #FFF;
+    font-family: "Amarante", serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+#nav-items ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-items li {
+    color: #FFF;
+    font-family: "Mina", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 45px;
+}
+
+/* SECTION: HERO */
+#hero {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#hero-text {
+    justify-content: start;
+    align-items: center; /*might not need*/
+    margin-left: 80px;
+}
+
+#hero-text h1 {
+    color: #FFF;
+    font-family: Mina;
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 60px;
+    margin-bottom: 19px;
+}
+
+#hero-text p {
+    width: 632px;
+    height: 191px;
+    margin: 0px;
+    color: #FFF;
+    font-family: Mina;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#hero-text button {
+    width: 229px;
+    height: 57px;
+    margin: 90px 36px 0 0;
+    border-radius: 30px;
+    border: none;
+    background: #D17884;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mina;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#profile-image img {
+    margin: 55px 88px 0 51px;
+    width: 434px;
+    height: 469px;
+    transform: rotate(18.85deg);
+    border-radius: 469px;
+    background: cover;
+}
+
+/* SECTION: CURRENTLY... */
+#current-objective {
+    min-width: 1280px;
+    height: 289px;
+    margin: 113px 0;
+    background: linear-gradient(90deg, rgba(255, 243, 243, 0.95) 0%, rgba(255, 198, 199, 0.95) 100%);
+}
+
+#current-objective h2 {
+    text-align: center;
+    font-family: Mina;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+    padding: 40px 0 3px 0;
+}
+
+#current-objective p {
+    width: 901px;
+    text-align: center;
+    font-family: Mina;
+    color: #0B0A37;
+    font-size: 25px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+}
+
+/* SECTION: PROJECT HIGHLIGHTS */
+#project-highlights h2 {
+    text-align: center;
+    font-family: Mina;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.project-item {
+    width: 1120px;
+    height: 229px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(255, 243, 243, 0.95) 0%, rgba(255, 212, 213, 0.95) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-item img {
+    width: 400px;
+    height: 175px;
+    border-radius: 5px;
+    background: lightgray 50% / cover;
+}
+
+#project-details {
+    width: 565px;
+}
+
+#project-details h3 {
+    color: #0B0A37;
+    font-family: Mina;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+#project-details p {
+    color: #0B0A37;
+    font-family: Mina;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0 0 25px 0;
+}
+
+#project-details button {
+    border-radius: 50px;
+    background: #893745;
+    color: #FFF;
+    border: none;
+    text-align: center;
+    font-family: Mina;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 6px 24px;
+    margin-right: 16px;
+}
+
+#all-project-items {
+    display: block;
+    width: 1120px;
+    margin: 0 auto;
+}
+
+/* SECTION: ABOUT ME */
+#about-me {
+    min-width: 1280px;
+    height: 500px;
+    margin: 112px 0;
+    padding: 56px 0 56px 80px;
+    background: linear-gradient(90deg, rgba(255, 243, 243, 0.95) 0%, rgba(255, 198, 199, 0.95) 100%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about-img {
+    width: 406px;
+    height: 395px;
+    background: cover;
+}
+
+#about-text h2 {
+    font-family: Mina;
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+
+#about-text p {
+    width: 665px;
+    color: #0B0A37;
+    font-family: Mina;
+    font-size: 22px;
+}
+
+/* SECTION: CONTACT */
+#contact h2 {
+    text-align: center;
+    font-family: Mina;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#contact p {
+    width: 930px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mina;
+    font-size: 30px;
+    display: block;
+    margin: 0 auto;
+}
+
+#home-contact-form {
+    margin: 30px 0 95px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#section-a {
+    margin-left: 175px;
+}
+
+#section-b {
+    margin-right: 175px;
+}
+
+#home-contact-form label {
+    display: block;
+    color: #FFF;
+    font-family: Mina;
+    font-size: 25px;
+    margin: 50px 0 20px 0;
+}
+
+#home-contact-form input {
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    border: none;
+    background: rgba(255, 168, 171, 0.30);
+    padding: 12px 33px;
+    margin-right: 40px;
+    color: #FFF;
+    font-family: Mina;
+    font-size: 20px;
+}
+
+#home-contact-form input::placeholder {
+    font-family: Mina;
+    font-size: 20px;
+    color: #DCDCDC;
+}
+
+#section-b input {
+    height: 245px;
+}
+
+#contact button {
+    margin-bottom: 120px;
+}
+
+/* FOOTER */
+#footer h1 {
+    font-family: Amarante;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footer p {
+    color: #FFF;
+    font-family: Mina;
+    font-size: 15px;
+    text-align: center;
+    line-height: 200%;
+}
+
+#footer-nav {
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+    padding: 37px 0px;
+}
+
+#footer-nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer-nav li {
+    color: #FFF;
+    font-family: "Mina", sans-serif;
+    font-size: 20px;
+    margin-left: 70px;
+}
