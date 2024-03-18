@@ -46,7 +46,7 @@ body, footer {
 
 .blue-pink-gradient-bg {
     min-width: 1280px;
-    height: 428px;
+    height: 320px;
     background: linear-gradient(180deg, #0B0A37 0%, #8C3845 100%);
 }
 
@@ -211,7 +211,7 @@ a {
     width: 400px;
     height: 175px;
     border-radius: 5px;
-    background: lightgray 50% / cover;
+    background: cover;
 }
 
 #project-details {
@@ -357,7 +357,7 @@ a {
     color: #FFF;
     font-size: 40px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #footer p {
