@@ -258,7 +258,7 @@ a {
     min-width: 1280px;
     height: 500px;
     margin: 112px 0;
-    padding: 56px 0 56px 80px;
+    padding: 56px 0 56px 0;
     background: linear-gradient(90deg, rgba(255, 243, 243, 0.95) 0%, rgba(255, 198, 199, 0.95) 100%);
     display: flex;
     justify-content: space-evenly;
