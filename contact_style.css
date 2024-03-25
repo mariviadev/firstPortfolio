@@ -123,7 +123,7 @@ a {
 
 .contact-column {
     width: 50%;
-    padding: 40px 130px;
+    padding: 40px 100px;
 }
 
 .contact-form {
@@ -146,7 +146,7 @@ a {
 
 .contact-form label, input{
     display: block;
-    width: 90%;
+    width: 85%;
 }
 
 .contact-form label {
@@ -179,7 +179,7 @@ a {
 /* SECTION: MEET ME */
 #meet-me {
     display: block;
-    padding: 80px 130px 60px 130px;
+    padding: 80px 100px 60px 100px;
 }
 
 #meet-me h2 {
@@ -206,7 +206,7 @@ footer {
 }
 
 .footer-a {
-    margin: 30px 200px 0 130px;
+    margin: 30px 200px 0 80px;
 }
 
 #footer h1 {
