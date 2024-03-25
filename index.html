@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio | Mariam Khan</title>
+        <link rel="favicon" type="image/x-icon" href="images/profile-photo-animated.jpeg">
         <link rel="stylesheet" href="homepage_style.css">
 
         <!--Google Fonts: Mina (Regular 400, Bold 700) & Amarante (Regular 400)-->
@@ -34,8 +35,8 @@
                     <h1>Hello, I'm 
                         <span class="text-color-white-pink-gradient">Mariam Khan</span></h1>
                     <p>I’m a product designer and developer based in Canada. I specialize in UI/UX research and design, video game design and development, data visualizations, as well as front-end development.</p>
-                    <button><a href="projects.html">View Projects</a></button>
-                    <button><a href="contact.html">Contact Me</a></button>
+                    <button class="default-button"><a href="projects.html">View Projects</a></button>
+                    <button class="default-button"><a href="contact.html">Contact Me</a></button>
                 </div>
                 
                 <div id="profile-image">
@@ -110,17 +111,25 @@
             <button class="default-button">Contact Me</button>
         </section>
         
+        <hr>
+
         <footer id="footer" class="blue-pink-gradient-bg">
-            <hr>
-            <h1 id="footer-logo-h1">
-                <a href="index.html">
-                    <span class="text-color-pink">MARI</span>AM.</a></h1>
-            <p>Copyright &copy; 2024.<br>Designed & developed by Mariam Khan.</p>
+            <div class="footer-a">
+                <h1 id="footer-logo-h1">
+                    <a href="index.html">
+                        <span class="text-color-pink">MARI</span>AM.</a></h1>
+                <p>Copyright &copy; 2024.<br>Designed & developed by Mariam Khan.</p>
+            </div>
             
-            <div id="footer-nav">
+            <div class="footer-nav footer-b">
                 <ul>
-                    <li style="margin-left: 0"><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="resume.html">Resume</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-nav footer-c">
+                <ul>
                     <li><a href="process.html">Process</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
