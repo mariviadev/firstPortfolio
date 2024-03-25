@@ -126,14 +126,18 @@ a {
     padding: 40px 130px;
 }
 
+.contact-form {
+    padding-left: 0;
+}
+
 .contact-info {
     margin: 70px 0 116px 0;
 }
 
 .contact-info p {
     margin-bottom: 50px;
-    margin-left: 50px;
-    text-align: left;
+    margin-left: 40px;
+    font-size: 22px;
 }
 
 .info-item {
@@ -142,22 +146,22 @@ a {
 
 .contact-form label, input{
     display: block;
-    width: 100%;
+    width: 90%;
 }
 
 .contact-form label {
-    margin: 40px 0 5px 0;
+    margin: 40px 0 10px 0;
 }
 
 .contact-form input {
-    margin: 0 0 40px 0;
-    padding: 10px 0;
+    margin: 0 0 50px 0;
+    padding: 10px 30px;
     border: none;
     border-bottom: 2px solid #D17884;
     background-color: transparent;
     color: #FFF;
     font-family: Mina;
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -175,11 +179,18 @@ a {
 /* SECTION: MEET ME */
 #meet-me {
     display: block;
-    padding: 60px 130px;
+    padding: 80px 130px 60px 130px;
+}
+
+#meet-me h2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .map-frame {
-    margin: 40px 0 60px 0;
+    margin-top: 40px;
 }
 
 
