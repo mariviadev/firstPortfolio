@@ -1,8 +1,13 @@
-body, footer {
+/* GLOBAL STYLES */
+body, footer, h1, p {
     margin: 0;
+    font-family: "Mina", sans-serif;
+    color: #FFF;
+    font-size: 25px;
 }
 
-/* CONSTANTS: TEXT */
+
+/* UTILITY: TEXT */
 .text-color-white {
     color: #FFF;
 }
@@ -31,7 +36,7 @@ body, footer {
     font-weight: 700;
 }
 
-/* CONSTANTS: BACKGROUNDS */
+/* BACKGROUNDS */
 .dark-blue-bg {
     background: #0B0A37;
     min-width: 1280px;
@@ -49,7 +54,7 @@ body, footer {
     background: linear-gradient(180deg, #2e1a4f 0%, #8C3845 100%);
 }
 
-/* OTHER CONSTANTS */
+/* BUTTONS */
 .default-button {
     padding: 10px 45px;
     display: block;
@@ -148,7 +153,7 @@ a {
 
 #hero-text button {
     display: inline-block;
-    margin: 95px 25px 0 0;
+    margin: 105px 25px 0 0;
 }
 
 #profile-image img {
@@ -163,8 +168,8 @@ a {
 /* SECTION: CURRENTLY... */
 #current-objective {
     min-width: 1280px;
-    height: 289px;
     margin: 140px 0 113px 0;
+    padding: 50px 0;
     background: linear-gradient(90deg, rgba(255, 243, 243, 0.95) 0%, rgba(255, 198, 199, 0.95) 100%);
 }
 
@@ -173,12 +178,12 @@ a {
     font-family: Mina;
     font-size: 50px;
     font-weight: 700;
-    margin: 0;
-    padding: 40px 0 3px 0;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 #current-objective p {
-    width: 901px;
+    width: 900px;
     text-align: center;
     font-family: Mina;
     color: #0B0A37;
@@ -186,6 +191,7 @@ a {
     font-weight: 400;
     display: block;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 /* SECTION: PROJECT HIGHLIGHTS */
@@ -194,6 +200,7 @@ a {
     font-family: Mina;
     font-size: 60px;
     font-weight: 700;
+    margin: 10px 0 60px 0;
 }
 
 .project-item {
@@ -234,17 +241,21 @@ a {
     margin: 0 0 25px 0;
 }
 
-#project-details button {
-    border-radius: 50px;
-    background: #893745;
-    color: #FFF;
-    border: none;
-    text-align: center;
-    font-family: Mina;
-    font-size: 15px;
-    font-weight: 400;
-    padding: 6px 24px;
+.tags {
+    display: flex;
+}
+
+.tag {
+    padding: 8px 24px;
     margin-right: 16px;
+    border-radius: 15px;
+    background: #AB5071;
+    text-align: center;
+    font-size: 15px;
+}
+
+.tool {
+    background-color: #634592;
 }
 
 #all-project-items {
@@ -282,6 +293,7 @@ a {
     color: #0B0A37;
     font-family: Mina;
     font-size: 22px;
+    margin: 15px 0 45px 0;
 }
 
 /* SECTION: CONTACT */
@@ -362,6 +374,7 @@ footer {
 }
 
 #footer p {
+    margin-top: 30px;
     color: #FFF;
     font-family: Mina;
     font-size: 15px;
