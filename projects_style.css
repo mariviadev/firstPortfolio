@@ -1,120 +1,51 @@
+/*** PROJECTS CSS STYLESHEET ***/
+
+
 /* GLOBAL STYLES */
-body, footer, h1, p {
-    margin: 0;
-    font-family: "Mina", sans-serif;
-    color: #FFF;
-    font-size: 25px;
+#projects-pg p {
+    font-size: 23px;
 }
 
-
-/* UTILITY: TEXT */
-.text-color-white {
-    color: #FFF;
-}
-
-.text-color-pink {
-    color: #FFC1C4;
-}
-
-
-/* BACKGROUNDS */
-.dark-blue-bg {
-    background: #0B0A37;
-    min-width: 1280px;
-    position: relative;
-}
-
-.pink-blue-gradient-bg {
-    min-width: 1280px;
-    height: 420px;
-    background: linear-gradient(180deg, #953B46 0%, #070936 100%);
-}
-
-.blue-pink-gradient-bg {
-    min-width: 1280px;
-    background: linear-gradient(180deg, #2e1a4f 0%, #8C3845 100%);
-}
-
-
-/* HEADER & NAVIGATION */
-a {
-    text-decoration: none;
-    font-family: inherit;
-    color: inherit;
-}
-
-#header-nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 37px 80px;
-}
-
-#logo-h1 {
-    color: #FFF;
-    font-family: "Amarante", serif;
-    font-size: 30px;
-    font-weight: 400;
-    margin: 0px;
-}
-
-#nav-items ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#nav-items li {
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 45px;
-    border-bottom: 2px solid transparent;
-}
-
-#nav-items li:hover {
-    color: #FFC1C4;
-    border-bottom-color: #FFC1C4;
-    transition: 0.3s;
-}
-
-
-/* SECTION: PAGE HEADER */
-#page-header h1 {
-    /*Source: https://cssgradient.io/blog/css-gradient-text/*/
-    background: -webkit-linear-gradient(90deg, #FFF 0%, #FFA1A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+#pro-page-header h1 {
     font-size: 70px;
-    font-weight: 700;
     margin: 50px 0 40px 0;
     text-align: center;
 }
 
-#page-header p {
+#pro-page-header p {
+    font-size: 24px;
     text-align: center;
     margin: 0 80px;
 }
 
+#pro-gradient {
+    height: 420px;
+}
+
 
 /* SECTION: PROJECT GALLERY */
-/* TODO make the grid using floats instead of grid-template-columns
-https://www.w3schools.com/howto/howto_css_two_columns.asp */
 #project-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
-    grid-gap: 40px;
-    padding: 80px;
+    padding: 40px 80px 12px 80px;
+}
+
+.project-row {
+    /* Source: https://www.w3schools.com/howto/howto_css_two_columns.asp */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .project-item {
-    margin-bottom: 55px;
+    margin: 0;
+    margin-bottom: 80px;
+}
+
+.c1 {
+    margin-right: 40px;
 }
 
 .project-item img {
     width: 100%;
-    height: 370px;
+    height: 360px;
     border-radius: 20px;
     display: block;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -141,8 +72,8 @@ https://www.w3schools.com/howto/howto_css_two_columns.asp */
 }
 
 .tag {
-    padding: 8px 24px;
-    margin-right: 16px;
+    padding: 8px 20px;
+    margin-right: 15px;
     border-radius: 15px;
     background-color: #AB5071;
     font-size: 15px;
@@ -152,64 +83,3 @@ https://www.w3schools.com/howto/howto_css_two_columns.asp */
 .tool {
     background-color: #634592;
 }
-
-
-/* FOOTER */
-hr {
-    margin-bottom: 0;
-    border-width: 1.5px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer-a {
-    margin: 30px 200px 0 80px;
-}
-
-#footer h1 {
-    font-family: Amarante;
-    color: #FFF;
-    font-size: 40px;
-    margin-top: 50px;
-}
-
-#footer p {
-    margin-top: 30px;
-    color: #FFF;
-    font-family: Mina;
-    font-size: 15px;
-    line-height: 200%;
-}
-
-.footer-nav {
-    display: block;
-    margin: 20px 0 80px 0;
-    padding: 37px 162px 37px 0;
-}
-
-.footer-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-nav li {
-    color: #FFF;
-    font-family: "Mina", sans-serif;
-    font-size: 20px;
-    margin-top: 30px;
-    margin-left: 70px;
-    border-bottom: 2px solid transparent;
-}
-
-.footer-nav li:hover {
-    color: #FFC1C4;
-    border-bottom-color: #FFC1C4;
-    transition: 0.3s;
-}
-
-
-

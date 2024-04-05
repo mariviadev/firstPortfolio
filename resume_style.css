@@ -1,103 +1,29 @@
+/*** RESUME CSS STYLESHEET ***/
+
+
 /* GLOBAL STYLES */
-body, footer, h1, p {
-    margin: 0;
-    font-family: "Mina", sans-serif;
-    color: #FFF;
+#resume-pg h1 {
+    text-align: left;
+}
+
+#resume-pg p {
     font-size: 22px;
-}
-
-
-/* UTILITY: TEXT */
-.text-color-white {
-    color: #FFF;
-}
-
-.text-color-pink {
-    color: #FFC1C4;
-}
-
-.text-color-white-pink-gradient {
-    /*Source: https://cssgradient.io/blog/css-gradient-text/*/
-    background: -webkit-linear-gradient(90deg, #FFF 0%, #FFA1A5 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-style: bold;
-    font-weight: 700;
-}
-
-
-/* BACKGROUNDS */
-.dark-blue-bg {
-    background: #0B0A37;
-    min-width: 1280px;
-    position: relative;
-}
-
-.pink-blue-gradient-bg {
-    min-width: 1280px;
-    height: 596px;
-    background: linear-gradient(180deg, #953B46 0%, #070936 100%);
-}
-
-.blue-pink-gradient-bg {
-    min-width: 1280px;
-    background: linear-gradient(180deg, #2e1a4f 0%, #8C3845 100%);
-}
-
-
-/* HEADER & NAVIGATION */
-a {
-    text-decoration: none;
-    font-family: inherit;
-    color: inherit;
-}
-
-#header-nav-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 37px 80px;
-}
-
-#logo-h1 {
-    color: #FFF;
-    font-family: "Amarante", serif;
-    font-size: 30px;
-    font-weight: 400;
-    margin: 0px;
-}
-
-#nav-items ul {
-    display: flex;
-    list-style-type: none;
+    text-align: left;
     margin: 0;
-    padding: 0;
 }
 
-#nav-items li {
-    color: #FFF;
-    font-family: "Mina", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 45px;
-    border-bottom: 2px solid transparent;
-}
-
-#nav-items li:hover {
-    color: #FFC1C4;
-    border-bottom-color: #FFC1C4;
-    transition: 0.3s;
+#resume-pg #profile-image img {
+    transform: scaleX(1);
 }
 
 
 /* SECTION: PAGE HEADER */
-#page-header {
+#res-page-header {
     display: flex;
     padding: 0px 80px;
 }
 
-#profile-image img {
+#res-profile-image img {
     margin: 55px 60px 0 20px;
     width: 434px;
     height: 469px;

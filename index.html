@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Home | Mariam Khan's Portfolio</title>
         <link rel="icon" href="images/favicon.jpeg" sizes="32x32">
-        <link rel="stylesheet" href="homepage_style.css">
+        <link rel="stylesheet" href="style.css">
 
         <!--Google Fonts: Mina (Regular 400, Bold 700) & Amarante (Regular 400)-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,9 +56,10 @@
         <section id="project-highlights">
             <h2 class="text-color-white-pink-gradient">Project Highlights</h2>
             <div id="all-project-items">
-                <div class="project-item" style="margin-bottom: 38px">
-                    <img src="images/project-car.png" 
-                    alt="UI designs for a car's infotainment system" class="project-photo">
+                <div class="home-project-item" style="margin-bottom: 45px">
+                    <!-- <img src="images/project-car.png" 
+                    alt="UI designs for a car's infotainment system" class="project-photo"> -->
+                    <div class="project-img pi-a"></div>
                     <div id="project-details">
                         <h3>CAR INFOTAINMENT SYSTEM</h3>
                         <p>Automotive Safety-Critical System Redesign</p>
@@ -69,8 +70,9 @@
                     </div>
                 </div>
 
-                <div class="project-item" style="margin-bottom: 50px">
-                    <img src="images/project-libra.png" alt="UI designs for a reading list and book tracker mobile app" class="project-photo">
+                <div class="home-project-item" style="margin-bottom: 72px">
+                    <!-- <img src="images/project-libra.png" alt="UI designs for a reading list and book tracker mobile app" class="project-photo"> -->
+                    <div class="project-img pi-b"></div>
                     <div id="project-details">
                         <h3>LIBRA MOBILE APP</h3>
                         <p>Original Reading List & Book Tracking App Design</p>
@@ -100,21 +102,21 @@
             <h2 class="text-color-white-pink-gradient">Get in touch</h2>
             <p>If you have a project that aligns with my skillset or simply want to connect, feel free to reach out. I'm always eager to explore new opportunities and collaborations.</p>
 
-            <div id="home-contact-form">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your first and last name">
+            <form id="home-contact-form">
+                <div id="home-form-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your first and last name">
 
-                <label for="email">E-mail</label>
-                <input type="text" id="email" name="email" placeholder="Enter a valid e-mail address">
+                    <label for="email">E-mail</label>
+                    <input type="text" id="email" name="email" placeholder="Enter a valid e-mail address">
                 
-                <label for="message">Message</label>
-                <input type="text" id="message" name="message" placeholder="Enter your message to Mariam">
-            </div>
-            <button class="default-button">Submit</button>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message"></textarea>
+                </div>
+                <input class="default-button" type="submit" value="Submit">
+            </form>
         </section>
         
-        <hr>
-
         <footer id="footer" class="blue-pink-gradient-bg">
             <div class="footer-a">
                 <h1 id="footer-logo-h1">
