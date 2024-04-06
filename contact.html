@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <title>Contact | Mariam Khan's Portfolio</title>
         <link rel="icon" href="images/favicon.jpeg" sizes="32x32">
-        <link rel="stylesheet" href="contact_style.css">
+        <link rel="stylesheet" href="style.css">
 
         <!--Google Fonts: Mina (Regular 400, Bold 700) & Amarante (Regular 400)-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,7 +15,7 @@
     </head>
 
     <body class="dark-blue-bg">
-        <div class="pink-blue-gradient-bg">
+        <div class="pink-blue-gradient-bg" id="mb">
             <header id="header-nav-menu">
                 <h1 id="logo-h1">
                     <a href="index.html">
@@ -34,7 +34,7 @@
             <section id="contact-me">
                 <div class="contact-column">
                     <div class="contact-text">
-                        <h1 class="text-color-white-pink-gradient">Get in touch</h1>
+                        <h1 class="text-color-white-pink-gradient" id="contact-h">Get in touch</h1>
                         <p>Have a project in mind or just want to say hello? Reach out through the form, and I'll get back to you in the next 48 hours.</p>
                     </div>
     
@@ -46,7 +46,7 @@
 
                         <div class="info-item">
                             <img src="images/phone-icon.svg" alt="phone icon" width="32" height="32">
-                            <p><a href="tel:+12892001817">+1 289 200 1817</a></p>
+                            <p><a href="tel:+12892001817">+1 (289) 200-1817</a></p>
                         </div>
 
                         <div class="info-item">
@@ -57,32 +57,31 @@
                     </div>
                 </div>
                 
-                <div class="contact-column contact-form">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your first and last name">
+                <div class="contact-column contact-pg-form" id="cc-b">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your first and last name">
 
-                    <label for="email">E-mail</label>
-                    <input type="text" id="email" name="email" placeholder="Enter a valid e-mail address">
+                        <label for="email">E-mail</label>
+                        <input type="text" id="email" name="email" placeholder="Enter a valid e-mail address">
                     
-                    <label for="message">Message</label>
-                    <input type="text" id="message" name="message" placeholder="Enter your message to Mariam">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Enter your message"></textarea>
 
-                    <button class="default-button">Submit</button>
+                        <input class="default-button" id="submit-btn" type="submit" value="Submit">
+                    </form>
                 </div>
-
             </section>
         </div>
 
         <section id="meet-me">
-            <h2>Meet me <span class="text-color-white-pink-gradient">on campus</span></h2>
+            <h2>Meet me <span class="text-color-white-pink-gradient" id="contact-h">on campus</span></h2>
             <p>Feel free to drop by the UTM campus if you'd prefer to talk face-to-face. Just shoot me a message beforehand to ensure I'm available to meet. Looking forward to connecting with you!</p>
 
             <div class="map-frame">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.7974582411302!2d-79.66525902504537!3d43.54826375921335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b43e3135af203%3A0x713c168866b9f492!2sUniversity%20of%20Toronto%20Mississauga!5e0!3m2!1sen!2sca!4v1710186407262!5m2!1sen!2sca" width="100%" height="500" style="border:0; border-radius: 10px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
-
-        <hr>
 
         <footer id="footer" class="blue-pink-gradient-bg">
             <div class="footer-a">
