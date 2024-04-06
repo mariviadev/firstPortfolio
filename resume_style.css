@@ -12,10 +12,6 @@
     margin: 0;
 }
 
-#resume-pg #profile-image img {
-    transform: scaleX(1);
-}
-
 
 /* SECTION: PAGE HEADER */
 #res-page-header {
@@ -28,7 +24,6 @@
     width: 434px;
     height: 469px;
     border-radius: 469px;
-    background: cover;
     box-shadow: 18px 15px 130.9px -16px rgba(0, 0, 0, 0.25);
 }
 
@@ -57,7 +52,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 80px;
-    margin: 120px 0;
+    margin: 80px 0;
 }
 
 #c1 {
@@ -70,12 +65,23 @@
 
 .column h2 {
     font-size: 60px;
+    margin-top: 70px;
+    margin-bottom: 0;
 }
 
 dt {
     font-size: 30px;
     font-weight: 700;
-    margin-top: 50px;
+    margin-top: 45px;
+}
+
+#dt-title {
+    margin-top: 30px;
+}
+
+#resume-pg li {
+    width: 80%;
+    line-height: 200%;
 }
 
 dd.org {
@@ -91,10 +97,10 @@ dd.date {
 
 #c2-h2 {
     font-size: 45px;
-    margin-top: 70px;
-    margin-bottom: 0;
+    margin-top: 80px;
 }
 
+/* EDUCATION */
 dd.edu-org {
     margin: 7px 0;
     font-size: 25px;
@@ -111,64 +117,52 @@ dd.edu-date {
     padding-left: 35px;
 }
 
-#c2 dt {
-    margin-top: 40px;
-}
-
-
-/* FOOTER */
-hr {
-    margin-bottom: 0;
-    border-width: 1.5px;
-}
-
-footer {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.footer-a {
-    margin: 30px 200px 0 80px;
-}
-
-#footer h1 {
-    font-family: Amarante;
-    color: #FFF;
-    font-size: 40px;
-    margin-top: 50px;
-}
-
-#footer p {
-    margin-top: 30px;
-    color: #FFF;
-    font-family: Mina;
-    font-size: 15px;
-    line-height: 200%;
-}
-
-.footer-nav {
-    display: block;
-    margin: 20px 0 80px 0;
-    padding: 37px 162px 37px 0;
-}
-
-.footer-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.footer-nav li {
-    color: #FFF;
-    font-family: "Mina", sans-serif;
+/* HOBBIES */
+#hobby-list li {
     font-size: 20px;
-    margin-top: 30px;
-    margin-left: 70px;
-    border-bottom: 2px solid transparent;
 }
 
-.footer-nav li:hover {
-    color: #FFC1C4;
-    border-bottom-color: #FFC1C4;
-    transition: 0.3s;
+/* SKILLS TABLE */
+#skill-table {
+    border: 3px solid #FFCACB;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+#skill-table td {
+    padding: 10px 0;
+    font-size: 19px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#table-title {
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 12px;
+}
+
+/* TOOLS TABLE */
+#tool-table {
+    border: 3px solid #FFCACB;
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+#tool-table th {
+    width: 50%;
+    font-size: 25px;
+    color: #FFCACB;
+    padding: 7px 0;
+}
+
+#tool-table td {
+    padding: 10px 0;
+    font-size: 19px;
+    vertical-align: middle;
+    text-align: center;
 }
