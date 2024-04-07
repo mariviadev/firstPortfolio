@@ -41,33 +41,68 @@
             </section>
         </div>
 
-        <section id="content">
-            <h2 class="text-color-white-pink-gradient">Overview</h2>
-            <p>This portfolio was created for the purpose of BLAH BLAH COURSE. LIST REQUIREMENTS OF ASSIGNMENT. EXPLAIN WHAT TOOLS WERE USED IN ITS CREATION. EXPLAIN HOW GRAPHICS WERE CREATED.</p>
+        <main>
+            <section id="content">
+                <h2 class="text-color-white-pink-gradient">Overview</h2>
+                <p>This portfolio was created as a project for CCT260H5, an introductory course in web development and design offered by the University of Toronto. The objective was to design and develop a custom portfolio website showcasing my professional experience using HTML and CSS. This site's development followed three main phases: planning, prototyping & programming, which are detailed below.</p>
+    
+                <h2 class="text-color-white-pink-gradient">Planning</h2>
+                <p>The first step I took was to create a checklist outlining the project requirements and necessary components for the site. Using these components as a guide, I began creating the Figma prototypes. Rather than spending too much time on initial wireframing, I quickly went from structuring the site to creating the high-fidelity mockups. The layout for each page gradually materialized as I worked on each page type individually. Below, you can see the overall structure of the pages that I first settled on.</p>
+                <img src="images/wireframes.png" alt="screenshot of wireframes created for the project" >
+    
+                <h2 class="text-color-white-pink-gradient">Prototyping</h2>
+                <p>When determining the layout and design for each page, I conducted research by looking at existing examples of similar page types through simple Google searches. I then added design elements inspired from the best examples I found. As depicted in the timelapse below, the prototype gradually took shape as each new page type was designed. The tools I used included Figma for prototyping, along with the Figma plugin Iconify for adding SVG icons. I also used Figma when creating the project preview images and the About section's summary image. For the project gallery's images, I copied Figma design frames from my old Figma projects and captured screenshots from my video game creations, which I then transformed into flattering isometric views by using the Figma plugin Fast Isometric. Additionally, I used Microsoft Designer's Image Creator tool to generate AI-images that I used for my profile and spotlight images. To view my Figma prototype, <a href="https://www.figma.com/file/3KaXWLpjH2n41PqqtKjAfL/CCT260H5-Project-2---MK-Portfolio?type=design&node-id=0%3A1&mode=design&t=hLAX9bKr9wWKlYN0-1" class="text-color-pink">click here</a>.</p>
+                <div class="video-container">
+                    <video width="100%" height="auto" autoplay muted loop controls>
+                        <source src="videos/figma-timelapse.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+    
+                <h2 class="text-color-white-pink-gradient" id="space-after-vid">Programming</h2>
+                <p>Having the high-fidelity prototype in Figma made converting the design into code much easier since all the values were already "set" within Figma. Figma's new Dev Mode also made the conversion easier as it allowed me to inspect specific elements and see their properties, which helped in writing their CSS. The Dev Mode's Measure tool was also helpful when setting margin and padding spaces since it allowed me to measure the pixel distance between different elements. Finally, Chrome's Inspect mode made it easier to debug code as I could see how my code affected specific elements. It also allowed me to compare how my site looked in the standard 1280px screen sizing required by the project, which was very important since my computer's screensize is much larger. Since this site was developed for the CCT260H5 course, I tried to primarily use the HTML and CSS concepts covered in classes. However, drawing from my background as a Computer Science minor and my recent enrollment in an online front-end development bootcamp offered by the e-learning platform called Scrimba, I also used additional concepts such as Block and Flex displays to improve the design. Any concepts not covered in these two courses were sourced from online sources like W3Schools, and these are documented in the code for reference.</p>
+                <div class="video-container">
+                    <video width="100%" height="auto" autoplay muted loop controls>
+                        <source src="videos/coding-demo.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+    
+                <h2 class="text-color-white-pink-gradient" id="space-after-vid">Design Improvements</h2>
+                <p>The final version of the site does not perfectly mirror the initial Figma design, as you can see below. There were many adjustments made to the final content and design to improve accessibility and add more visual appeal as I converted the design to code. For example, the original design of the project tags closely resembled buttons, so I modified their shape to be less rounder and changed their colors to distinguish them from actual buttons. Additionally, the contrast between the text and background color on the buttons was insufficient, so I changed the hue to a darker pink to improve readability. Another noticeable change is the profile picture, which was originally a closeup of an animated woman generated by AI to resemble me. I replaced it with a more professional image that emphasizes my tech background over physical appearance. I also introduced a new section titled "Hobbies" on the resume page since there was extra space in the left column after the Skill and Tool tables were coded. Finally, the appearance of the Contact forms underwent design improvements to look more visually appealing. Aside from the design changes, the code also underwent several iterations as I gained confidence with the concepts and tried to enhance my code's efficiency. For example, more div elements, classes, IDs, and standard HTML elements were added to further structure and organize the code. Using proper naming conventions also became especially important when I was asked to convert my originally five separate CSS stylesheets for each page into one single CSS stylesheet for code readability and consistency purposes. As I imported each separate stylesheet into the main stylesheet during the consolidation process, a lot of bugs and breaks occurred, which required me to refine certain class and ID names to be more unique and specific to prevent conflicts.</p>
+                <img src="images/figma-design.png" alt="final design prototype">
 
-            <h2 class="text-color-white-pink-gradient">Brainstorming</h2>
-            <p>LIST HOW TO BRAINSTORM YOU DECIDED DRAWING POSSIBLE LAYOUTS FOR EACH TYPE OF PAGE.</p>
-
-            <h2 class="text-color-white-pink-gradient">Prototyping</h2>
-            <p>MENTION HOW YOU PROTOTYPED THE PAGES FIRST USING FIGMA. USE SLIDESHOW?</p>
-
-            <h2 class="text-color-white-pink-gradient">Programming</h2>
-            <p></p>
-
-            <h2 class="text-color-white-pink-gradient">Final Improvements</h2>
-            <p></p>
-
-            <h2 class="text-color-white-pink-gradient">Resources</h2>
-            <p>MENTION THE HELPFUL RESOURCES. FONTS. ICON/ETC PLUGINS. STACK OVERFLOW, W3SCOOLS. FINAL CITATIONS.</p>
-            <h3>Fonts</h3>
-            <p></p>
-            <h3>Media</h3>
-            <p></p>
-            <h3>Iconography</h3>
-            <p></p>
-            <h3>Code</h3>
-            <p></p>
-        </section>
+                <h2 class="text-color-white-pink-gradient">WCAG2.0 Accessibility</h2>
+                <div id="access-column">
+                    <p>The site was designed with usability and accessibility principles in mind, adhering to best practices such as using strong contrast, maintaining a logical and well-organized structure using headings, providing descriptive alt text for images, ensuring clear differentiation between various elements, enhancing visibility of interactive elements through subtle animations, and integrating controls for videos. To conduct a more robust evaluation of this site's adherance to accessibility, I used the Web Accessibility Evaluation (WAVE) tool developed by WebAIM. The evaluation revealed that none of the pages showed any contrast errors, all images had appropriate alt text, forms were properly associated with their labels, and the page structure was correctly implemented using HTML elements. While some alerts were generated for missing video captions and many 'potential' heading isues, they weren't relevant to my site's specific context and layout.</p>
+                    <img src="images/homepage-webaim.png" alt="WebAIM accessibility report for homepage">
+                </div>
+                
+    
+                <h2 class="text-color-white-pink-gradient">External Resources</h2>
+                <p style="margin-bottom: 50px">Below are the links for the resources and tools used to complete this project.</p>
+                <h3>Google Fonts</h3>
+                <ul class="process-ul">
+                    <li><a href="https://fonts.google.com/specimen/Amarante" class="text-color-pink">Amarante;</a> used in site's main logo.</li>
+                    <li><a href="https://fonts.google.com/specimen/Mina" class="text-color-pink">Mina;</a> used for primary typography.</li>
+                </ul>
+                <h3>Graphics</h3>
+                <ul class="process-ul">
+                    <li><a href="https://designer.microsoft.com/image-creator" class="text-color-pink">Microsoft Designer Image Creator;</a> used to generate AI-images.</li>
+                        <ul><li>Profile Prompt: "professional woman hijabi silhouette, abstract, laptop pic, maroon pink navy blue tech theme"</li></ul>
+                        <ul><li>Process Spotlight Prompt: "An office with a computer, chair and desk, maroon pink navy blue tech theme"</li></ul>
+                    <li>Figma Plugins</li>
+                        <ul><li><a href="https://www.figma.com/community/plugin/735098390272716381/iconify?searchSessionId=luov9l3w-krttjpyj1rl" class="text-color-pink">Iconify;</a> used for all iconography in site and images.</li></ul>
+                        <ul><li><a href="https://www.figma.com/community/plugin/1249759048471403961/fast-isometric?searchSessionId=luovaksl-zb26bbkein" class="text-color-pink">Fast Isometric;</a> used for project preview images.</li></ul>
+                </ul>
+                <h3>Code</h3>
+                <ul class="process-ul">
+                    <li><a href="https://www.w3schools.com/" class="text-color-pink">W3Schools;</a> helpful to understand elements used, new concepts commented in code.</li>
+                    <li><a href="https://scrimba.com/learn/frontend" class="text-color-pink">Scrimba;</a> helpful for Flex and Block displays.</li>
+                    <li><a href="https://cssgradient.io/blog/css-gradient-text/" class="text-color-pink">CSS Gradient;</a> used for gradient backgrounds and text.</li>
+                </ul>
+            </section>
+        </main>
 
         <footer id="footer" class="blue-pink-gradient-bg">
             <div class="footer-a">

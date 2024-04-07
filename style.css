@@ -1,6 +1,7 @@
 /***** GLOBAL CSS STYLESHEET *****/
 
 /* Import other CSS stylesheets */
+/* Source: https://www.w3schools.com/cssref/pr_import_rule.php */
 @import url('homepage_style.css');
 @import url('projects_style.css');
 @import url('resume_style.css');
@@ -13,6 +14,10 @@ body, footer {
     margin: 0;
     font-family: "Mina", sans-serif;
     color: #FFF;
+}
+
+main {
+    margin: 0;
 }
 
 h1 {

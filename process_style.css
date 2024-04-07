@@ -49,8 +49,36 @@
 
 #content h3 {
     font-size: 35px;
+    margin: 40px 0 20px 0;
 }
 
 #content p {
     margin-bottom: 80px;
+}
+
+#access-column {
+    display: flex;
+}
+
+.process-ul li {
+    line-height: 200%;
+    font-size: 25px;
+}
+
+
+/* SPECIAL: MEDIA */
+#content img {
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
+
+#access-column img {
+    width: 20%;
+    height: auto;
+    margin-left: 30px;
+}
+
+#space-after-vid {
+    margin-top: 90px;
 }
